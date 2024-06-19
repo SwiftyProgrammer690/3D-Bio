@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swarit In 3D??</title>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+</head>
+<body>
+    <a-scene>
+        <a-assets>
+            <img id="sky-texture" src="skyy.jpeg">
+            <img id="ground" src="ground.jpeg">
+            <audio id="background" src="music.mp3"></audio>
+            <a-asset-item  id="desk"  src="scene.gltf"></a-asset-item>
+        </a-assets>
+        <a-sky src="#sky-texture"></a-sky>
+        <a-plane src="#ground" height="10" width="10" rotation="-90 0 0"></a-plane>
+        <a-sound src="#background" autoplay="true"></a-sound>
+        <a-text value="Welcome To My Dream Room!" color="#white" align="center" position="0 2 -3" scale="1.5 1.5 1.5"></a-text>
+        <a-entity gltf-model="#desk" modify-materials></a-entity>
+    </a-scene>
+</body>
+</html>
