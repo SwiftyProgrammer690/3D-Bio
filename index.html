@@ -12,13 +12,24 @@
             <img id="sky-texture" src="skyy.jpeg">
             <img id="ground" src="ground.jpeg">
             <audio id="background" src="music.mp3"></audio>
-            <a-asset-item  id="desk"  src="scene.gltf"></a-asset-item>
+            <a-asset-item  id="desk"  src="gaming_set_up (1)/scene.gltf"></a-asset-item>
+            <a-asset-item id="pianotable" src="simple_office_table/scene.gltf"></a-asset-item>
+            <a-asset-item id="piano" src="ljas_-_arturia_keylab_88_mk2/scene.gltf"></a-asset-item>
+            <a-asset-item id="rug" src="antique_heriz_8708_golden_horn_beige_rugs/scene.gltf"></a-asset-item>
+            <a-asset-item id="chess" src="chess/scene.gltf"></a-asset-item>
+            <a-asset-item id="ikea" src="skagenas_corner_group/scene.gltf"></a-asset-item>
         </a-assets>
         <a-sky src="#sky-texture"></a-sky>
-        <a-plane src="#ground" height="10" width="10" rotation="-90 0 0"></a-plane>
+        <a-plane src="#ground" height="10" width="10" rotation="-90 0 0" scale="0.5 0.5 0.5"></a-plane>
         <a-sound src="#background" autoplay="true"></a-sound>
-        <a-text value="Welcome To My Dream Room!" color="#white" align="center" position="0 2 -3" scale="1.5 1.5 1.5"></a-text>
-        <a-entity gltf-model="#desk" modify-materials></a-entity>
+        <a-text value="Welcome To My Dream Office!" color="#white" align="center" position="0 2 -3"></a-text>
+        <a-entity gltf-model="#desk" modify-materials scale="0.2 0.2 0.2" position="1.2 0 -2" rotation="0 90 0"></a-entity>
+        <a-entity gltf-model="#pianotable" modify-materials position="-1.4 0 -2" rotation="0 90 0"></a-entity>
+        <a-entity gltf-model="#piano" scale="1.5 1.5 1.5"modify-materials position="-2.37 0.8 -1.6"></a-entity>
+        <a-entity gltf-model="#rug" scale="3 3 3"modify-materials ></a-entity>
+        <a-entity gltf-model="#chess" scale="0.01 0.01 0.01"modify-materials position="2 0.8 -2"></a-entity>
+        <a-entity gltf-model="#ikea" scale="0.8 0.8 0.8"modify-materials position="-1.3 0 1.4" rotation="0 90 0"></a-entity>
+        <a-entity gltf-model="#ikea" scale="0.8 0.8 0.8"modify-materials position="1.3 0 1.4" rotation="0 180 0"></a-entity>
     </a-scene>
 </body>
 </html>

@@ -1,0 +1,8 @@
+Model Information:
+* title:	LJAS - Arturia Keylab 88 MK2
+* source:	https://sketchfab.com/3d-models/ljas-arturia-keylab-88-mk2-200d942b65f54ed1a1f7f1657c124161
+* author:	La Jarre à Son (https://sketchfab.com/la_jarre_a_son)
+
+Model License:
+* license type:	SKETCHFAB Standard (https://sketchfab.com/licenses)
+* requirements:	Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works

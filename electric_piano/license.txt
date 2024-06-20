@@ -1,0 +1,8 @@
+Model Information:
+* title:	Electric Piano
+* source:	https://sketchfab.com/3d-models/electric-piano-1a66343f60644374b727df78ce47f5d0
+* author:	Speedude_Customs (https://sketchfab.com/Speedude_Customs)
+
+Model License:
+* license type:	SKETCHFAB Standard (https://sketchfab.com/licenses)
+* requirements:	Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works
